@@ -1,0 +1,22 @@
+from mpl_toolkits.mplot3d import axes3d
+import matplotlib.pyplot as plt
+
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+# Grab some test data.
+X, Y, Z = axes3d.get_test_data(0.05)
+
+print(X[0][0])
+#print(Y.shape)
+#print(Z.shape)
+
+# x = depth (depth righe, energy colonne)
+# y = energy (energy righe, depth colonne)
+# z = yield function (energy righe, depth colonne)
+
+# Plot a basic wireframe.
+ax.plot_wireframe(X, Y, Z, rstride=10, cstride=10)
+
+plt.show()

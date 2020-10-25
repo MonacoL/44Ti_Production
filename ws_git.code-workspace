@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "../ARPA"
+		},
+		{
+			"path": "."
+		},
+		{
+			"name": "44Ti_Production",
+			"path": "../44Ti_Production"
+		}
+	],
+	"settings": {
+		"githubPullRequests.remotes": [
+			"origin",
+			"upstream",
+			"ArpaPiemonte"
+		]
+	}
+}
